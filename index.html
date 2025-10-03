@@ -10,18 +10,64 @@
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="styles/style.css" />
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
         />
-        <link rel="stylesheet" href="styles/style.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"
         ></script>
-        <title>Paradigm Pet Professionals</title>
+        <title>Home | Paradigm Pet Professionals</title>
     </head>
-
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand active" href="#">
+                    <img
+                        src="./images/logo.png"
+                        alt="Paradigm Pet Professionals"
+                        height="50px"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler btn"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#nav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="./cats.html" class="nav-link">Cats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./dogs.html" class="nav-link">Dogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./birds.html" class="nav-link">Birds</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./faqs.html" class="nav-link">FAQs</a>
+                        </li>
+                    </ul>
+                    <form class="ms-auto">
+                        <input type="search" placeholder="Search" />
+                        <button type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+                    <a
+                        href="./consult.html"
+                        class="btn btn-primary ms-lg-3 my-lg-0 my-2"
+                        >Consult Pexpert</a
+                    >
+                </div>
+            </div>
+        </nav>
+    </header>
     <body></body>
 </html>
